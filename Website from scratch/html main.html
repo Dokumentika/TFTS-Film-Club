@@ -2,26 +2,134 @@
 <html>
 <head>
   <title> Aber Film Club </title>
-  <link rel="stylesheet" href="cssmain.css">
+  <style>
+
+  h1, h2 {
+    color: rgba(255,255,255,1);
+  }
+  section {
+  	color: black;
+  	text-align: justify;
+  }
+  div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+}
+p {
+  color: rgba(255,255,255,1);
+  padding: 10px;
+  line-height: 28px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+  .screening {
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    background: url("images/immagine1.png");
+    color: white;
+    border: 7px solid white;
+    border-radius: 10px;
+  }
+  .about {
+    height: 200px;
+    margin: 0 auto;
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    background: url("images/immagine2.png");
+    border: 7px solid white;
+    border-radius: 10px;
+  }
+  ul {
+    float: right;
+  }
+  a {
+      color: red;
+  }
+  li {
+    display: block;
+    background-color: rgba(0,0,0,1);
+    padding: 10px;
+    margin: 10 px;
+    margin: 0 40px 0 40px;
+  }
+  .accademic {
+    display: inline-block;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 600px;
+    background: blue;
+    background-position: center;
+  }
+</style>
 </head>
 
-<body>
-  <nav id="menu">
-    <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="screenings.html">Screenings</a></li>
-      <li><a href="accademic-work.html">Accademic work</a></li>
-    </ul>
-  </nav>
+<!--section-->
+<div class="screening">
+  <h1> SCREENING THIS WEEK </h1>
+    <!--img src="images/immagine1.png"-->
+  <p> LIBERA by Pappi Corsicato (1993) <br />
+    <a href="https://www.youtube.com/watch?v=6cUVpMCxuOo">Trailer</a>.</p>
+</div>
+  <!--/section-->
 
-  <!-- Header -->
-    <header id="header">
-      <div class="logo"><a href="index.html">Film Club <span>Aberystwyth University</span></a></div>
-      <a href="#menu" class="toggle"><span>Menu</span></a>
+  <div class="menu">
+  <ul>
+    <li><a href="#">1</li>
+    <li><a href="#">2</li>
+    <li><a href="#">3</li>
+  </ul>
+  </div>
+
+  <header>
+  <div class="about">
+    <h2>About Film Club</h2>
+    <p>Screening movies every week and film analysis and critique<br />
+    General info about the club<br />
+    General info about place and time<br />
+  </p>
+  </div>
+  </header>
+
+<div class="accademic">
+  <div class="content">
+    <header class="align-center">
+      <h3>Film analysis 1</h3>
     </header>
+    <p>bla bla</p>
+    <footer class="align-center">
+      <a href="#" class="button alt">Learn More</a>
+    </footer>
+  </div>
+</div>
 
-  <!--
-    To use a video as your background, set data-video to the name of your video without
-    its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
-    formats to work correctly.
-  -->
+<div class="accademic">
+  <div class="content">
+    <header class="align-center">
+      <h3>Film analysis 2</h3>
+    </header>
+    <p>bla bla</p>
+    <footer class="align-center">
+      <a href="#" class="button alt">Learn More</a>
+    </footer>
+  </div>
+</div>
+
+<div class="accademic">
+  <div class="content">
+    <header class="align-center">
+      <h3>Film analysis 3</h3>
+    </header>
+    <p>bla bla</p>
+    <footer class="align-center">
+      <a href="#" class="button alt">Learn More</a>
+    </footer>
+  </div>
+</div>

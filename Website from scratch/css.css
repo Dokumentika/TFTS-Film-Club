@@ -10,9 +10,9 @@ a {
 }
 body {
 font-family: Helvetica;
-background: rgba(243,144,82,1)
+background: rgba(0,0,0,1)
 }
-h1 {
+h1, h2 {
 	color: rgba(255,255,255,1);
   margin-top: 0;
   text-align: center;
@@ -65,17 +65,16 @@ ul {
 }*/
 li {
 	display: block;
-	background-color: rgba(1,137,180,1);
+	background-color: rgb(90,105,118,0.7);
 	padding: 10px;
 	margin: 10 px;
 	margin: 0 40px 0 40px;
-
 }
 .accademic {
 	display: inline-block;
 	height: 200px;
 	width: 33%;
-	background: rgba(1,137,180,1);
+	background: rgb(90,105,118,0.7);
 	background-position: center;
 }
 button {
